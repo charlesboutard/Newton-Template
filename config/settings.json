@@ -1,0 +1,32 @@
+{
+  "agent_name": "Newton",
+  "recipient": "YOUR_EMAIL@example.com",
+  "sender": "Newton <onboarding@resend.dev>",
+  "timezone": "Europe/Paris",
+  "send_hour": 6,
+  "send_minute": 30,
+  "subject_format": "Morning Brief — {date_long}",
+  "landscape_day": "Sunday",
+  "dedup_window_days": 14,
+  "max_window_hours": 48,
+  "sectors": [
+    {
+      "id": "humanoid-robotics",
+      "title": "Humanoid Robotics",
+      "language": "en",
+      "file": "sectors/humanoid-robotics.md",
+      "enabled": true,
+      "main": [3, 5],
+      "secondary": [3, 6]
+    },
+    {
+      "id": "french-politics",
+      "title": "Politique française",
+      "language": "fr",
+      "file": "sectors/french-politics.md",
+      "enabled": true,
+      "main": [3, 5],
+      "secondary": [3, 6]
+    }
+  ]
+}
